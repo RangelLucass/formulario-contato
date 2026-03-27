@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>TechSolutions – Fale Conosco</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h2>TechSolutions – Fale Conosco</h2>
+</header>
+
+<div class="container">
+  <form id="form">
+
+    <input type="text" id="nome" placeholder="Nome">
+    <div id="erroNome" class="erro"></div>
+
+    <input type="email" id="email" placeholder="E-mail">
+    <div id="erroEmail" class="erro"></div>
+
+    <input type="text" id="telefone" placeholder="(99) 99999-9999">
+    <div id="erroTelefone" class="erro"></div>
+
+    <select id="assunto">
+      <option value="">Assunto</option>
+      <option>Suporte</option>
+      <option>Vendas</option>
+      <option>Reclamação</option>
+      <option>Outros</option>
+    </select>
+
+    <textarea id="mensagem" placeholder="Mensagem"></textarea>
+    <div id="erroMensagem" class="erro"></div>
+
+    <div class="termos">
+  <input type="checkbox" id="termos">
+  <label for="termos">Aceito os termos</label>
+  </div>
+    <div id="erroTermos" class="erro"></div>
+
+    <button type="submit">Enviar</button>
+
+  </form>
+</div>
+
+<footer>
+  <p>©TechSolutions 2026</p>
+</footer>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
